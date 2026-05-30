@@ -1,14 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/html-vite';
 
-const html = `<div
-  class="qr-code"
-  aria-label=""
->
-  <!-- Consumer provides content -->
-</div>`;
+const html = `<img
+  class="barcode-image"
+  src=""
+  alt=""
+>`;
 
 const meta = {
-  title: 'Headless/QrCode',
+  title: 'Headless/BarcodeImage',
   render: () => html,
   tags: ['autodocs']
 } satisfies Meta;
